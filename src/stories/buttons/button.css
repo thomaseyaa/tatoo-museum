@@ -1,15 +1,23 @@
+font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/fonts/BebasNeue-Regular.ttf");
+}
 .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Bebas Neue";
   font-weight: 700;
-  border: 0;
-  border-radius: 3em;
+  border: 1px solid;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
 }
 .storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+  color: #202020;
+  background-color: #FFFFFF;
+  border-color: #202020;
+}
+.storybook-button--primary:hover {
+  color: #FFFFFF;
+  background-color: #202020;
 }
 .storybook-button--secondary {
   color: #333;
