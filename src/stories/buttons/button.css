@@ -1,14 +1,15 @@
-font-face {
-  font-family: "Bebas Neue";
-  src: url("../assets/fonts/BebasNeue-Regular.ttf");
-}
 .storybook-button {
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue', cursive;
   font-weight: 700;
   border: 1px solid;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  width: 100px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
 }
 .storybook-button--primary {
   color: #202020;
@@ -20,19 +21,20 @@ font-face {
   background-color: #202020;
 }
 .storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  color: #FFFFFF;
+  background-color: #202020;
+  border-color: #FFFFFF;
 }
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+.storybook-button--secondary:hover {
+  color: #202020;
+  background-color: #FFFFFF;
+  border-color: #202020;
 }
-.storybook-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
-}
-.storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+.storybook-icon {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+  border: 1px solid;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
 }

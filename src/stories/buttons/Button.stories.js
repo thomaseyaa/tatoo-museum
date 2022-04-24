@@ -5,11 +5,7 @@ export default {
   component: MyButton,
   argTypes: {
     backgroundColor: { control: 'color' },
-    onClick: {},
-    size: {
-      control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
-    },
+    color: { control: 'color' }
   },
 };
 
@@ -27,7 +23,19 @@ Primary.args = {
   label: 'Button',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const IconLeft = Template.bind({});
+IconLeft.args = {
+  iconLeft: true,
   label: 'Button',
+};
+
+export const IconRight = Template.bind({});
+IconRight.args = {
+  iconRight: true,
+  label: 'Button',
+};
+
+export const Icon = Template.bind({});
+Icon.args = {
+  icon: true,
 };

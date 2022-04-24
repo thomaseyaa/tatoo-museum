@@ -10,52 +10,60 @@ const Template = (args) => ({
   setup() {
     return { args };
   },
-  template: '<my-illustration v-bind="args" />',
+  template: '<my-icon v-bind="args" />',
 });
 
-export const Search = Template.bind({});
-Search.args = {
-  primary: true,
-  src: ''
+export const Close = Template.bind({});
+Close.args = {
+  close: true,
 };
 
-export const Tel = Template.bind({});
-Tel.args = {
-  src: ''
-};
-
-export const User = Template.bind({});
-User.args = {
-  src: ''
+export const Facebook = Template.bind({});
+Facebook.args = {
+  facebook: true,
 };
 
 export const Instagram = Template.bind({});
 Instagram.args = {
-  src: ''
-};
-
-export const Snapchat = Template.bind({});
-Snapchat.args = {
-  src: ''
-};
-
-
-export const Facebook = Template.bind({});
-Facebook.args = {
-  src: ''
-};
-
-export const Twitter = Template.bind({});
-Twitter.args = {
-  src: ''
+  instagram: true,
 };
 
 export const Linkedin = Template.bind({});
 Linkedin.args = {
-  src: ''
+  linkedin: true,
+};
+
+export const Message = Template.bind({});
+Message.args = {
+  message: true,
 };
 
 export const Palette = Template.bind({});
 Palette.args = {
-  src: ''
+  palette: true,
+};
+
+export const Search = Template.bind({});
+Search.args = {
+  search: true,
+};
+
+export const Snapchat = Template.bind({});
+Snapchat.args = {
+  snapchat: true,
+};
+
+export const Tel = Template.bind({});
+Tel.args = {
+  tel: true,
+};
+
+export const Twitter = Template.bind({});
+Twitter.args = {
+  twitter: true,
+};
+
+export const User = Template.bind({});
+User.args = {
+  user: true,
 };

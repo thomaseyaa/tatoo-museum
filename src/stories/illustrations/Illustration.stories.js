@@ -15,8 +15,7 @@ const Template = (args) => ({
 
 export const Illustration1 = Template.bind({});
 Illustration1.args = {
-  primary: true,
-  src: 'https://lh5.googleusercontent.com/vImZQwNFBqkO9LDo6b8rP_zSMCwCXPoHe1YOQhiVMmGqmuKrmP-zyOME_kKkjKvTibrxXgrTBsaxXhxSktWS=w1640-h1578'
+  src: './assets/illustration1.png'
 };
 
 export const Illustration2 = Template.bind({});

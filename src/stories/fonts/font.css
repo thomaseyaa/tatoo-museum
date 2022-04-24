@@ -1,20 +1,12 @@
-font-face {
-  font-family: "Bebas-Neue";
-  src: url("../assets/fonts/BebasNeue-Regular.ttf");
-}
 .storybook-font--text1 {
-  font-family: "Bebas-Neue";
-  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
 }
 .storybook-font--text2 {
-  font-family: "Bebas Neue";
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+.storybook-font--text3 {
+  font-family: 'Bebas Neue', cursive;
 }
 .storybook-font--text4 {
-  font-family: "Bebas Neue";
-  font-weight: 700;
-}
-.storybook-font--text2 {
-  font-family: "Bebas Neue";
-  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;
 }
