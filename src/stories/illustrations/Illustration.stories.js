@@ -15,10 +15,10 @@ const Template = (args) => ({
 
 export const Illustration1 = Template.bind({});
 Illustration1.args = {
-  src: './assets/illustration1.png'
+  src: 'https://res.cloudinary.com/dh41ye6kv/image/upload/v1650888094/illustration1_k4fqrh.png'
 };
 
 export const Illustration2 = Template.bind({});
 Illustration2.args = {
-  src: 'https://lh6.googleusercontent.com/Ir_J1nILEz_ytkbueiJBMXUUX1xD5BUTWTCLDXeAGDlQE52Ks5r1Unvh9Ltok-TuUzZ_48gmksm_PdkwA0Hm=w1640-h1578'
+  src: 'https://res.cloudinary.com/dh41ye6kv/image/upload/v1650888094/illustration2_z1wekd.png'
 };

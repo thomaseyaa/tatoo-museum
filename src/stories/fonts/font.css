@@ -6,6 +6,9 @@
 }
 .storybook-font--text3 {
   font-family: 'Bebas Neue', cursive;
+  -webkit-text-stroke: 0.001px black;
+  color: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
 }
 .storybook-font--text4 {
   font-family: 'Bebas Neue', cursive;
