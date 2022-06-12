@@ -1,7 +1,7 @@
 import MyImage from './Image.vue';
 
 export default {
-  title: 'Example/Images',
+  title: 'Tokens/Images',
   component: MyImage,
 };
 

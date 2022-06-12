@@ -2,7 +2,7 @@ import MyFont from './Font.vue';
 import './font.css';
 
 export default {
-  title: 'Example/Typographie',
+  title: 'Tokens/Typographie',
   component: MyFont,
 };
 

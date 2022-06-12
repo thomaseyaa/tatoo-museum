@@ -1,7 +1,7 @@
 import MyLogo from './Logo.vue';
 
 export default {
-  title: 'Example/Logos',
+  title: 'Tokens/Logos',
   component: MyLogo,
 };
 

@@ -1,7 +1,7 @@
 import MyIllustration from './Illustration.vue';
 
 export default {
-  title: 'Example/Illustrations',
+  title: 'Tokens/Illustrations',
   component: MyIllustration,
 };
 
